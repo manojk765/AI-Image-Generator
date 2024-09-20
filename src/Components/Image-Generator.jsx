@@ -1,12 +1,12 @@
 import React, { useRef, useState } from 'react';
 import './image.css';
-import bgimage from 'C:/Users/manoj/AI-Image-Generator/image/src/Components/Assests/bg_image.svg';
+import bg_img from '../Components/bgimage.jpg';
 import { FaRegArrowAltCircleUp } from 'react-icons/fa';
 
 const token = "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";
 
 function ImageGenerator() {
-    const [image_url, setImage_url] = useState(bgimage);
+    const [image_url, setImage_url] = useState(bg_img);
     const [loading, setLoading] = useState(false); 
     let inputref = useRef(null);
 
