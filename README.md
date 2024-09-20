@@ -2,8 +2,9 @@
 
 This React application uses Hugging Face models to generate images based on user-provided text. It showcases the capabilities of AI in creative content generation.
 
-## Link
+## Demo Link
 
+https://manojk765.github.io/AI-Image-Generator/
 
 
 ## Features
